@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: #fff;
+}
+.container{
+  margin: 100px 0;
+}
+.container .searchInput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container .searchInput input{
+  width: 55%;
+  padding: 15px;
+  outline: none;
+}
+.container .cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px auto;
+}
+.container .cards .cardContent{
+  margin: 20px;
+  padding: 0px 10px;
+  text-align: center;
+  background-color: rgb(225, 225, 225);
+}
+.container .cards .cardContent h3{
+  margin-top: 10px;
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+}
+.container .cards .cardContent p{
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+.container .cards .cardContent img{
+  height: 250px;
+  width: 300px;
+}
+
